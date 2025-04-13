@@ -34,11 +34,11 @@ build/
 # Thêm vào cuối tệp .gitignore của bạn
 
 # Secrets and sensitive config files
-google-speech-key.json
+/demo/src/main/resources/google-speech-key.json
 # Nếu application.properties chứa cả thông tin nhạy cảm và không nhạy cảm,
 # cách tốt nhất là tách thông tin nhạy cảm ra một file riêng (ví dụ: secrets.properties)
 # và ignore file đó. Nếu toàn bộ application.properties là nhạy cảm và không nên đưa lên repo:
-application.properties
+/demo/src/main/resources/application.properties
 # Hoặc một file riêng cho secrets:
 # secrets.properties
 
