@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    @apply leading-[normal] m-0;
+    font-family: "Be Vietnam Pro";
+}
+
+*,
+::before,
+::after {
+    border-width: 0;
+}
+
+html {
+    /* font-size: 62.5%; */
+}
+
+w-1400 {
+    width: 1400px !important;
+}
+@keyframes rgb {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animate-rgb {
+    animation: rgb 3s ease infinite;
+    background-size: 200% 200%;
+  }
+  
